@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.main {
+  margin-left: -9px;
+  margin-top: -9px;
+  font-family: 'Open Sans';
+  min-height: 100vh;
+  max-height: max-content;
+  width: 100vw;
+  background-image: linear-gradient(114deg, #00c3f9 50%, #00a7f8 50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn {
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #3b4856;
+  border: none;
+  color: white;
+  outline: none;
+  padding: 10px;
+  width: 150px;
+  font-family: 'Open Sans';
+  font-weight: 500;
+  font-size: 16px;
+}
+.main-img {
+  width: 85vw;
+}
+.p {
+  color: red;
+}
+.main-head {
+  color: white;
+}
+.input {
+  border-radius: 10px;
+  border: none;
+  width: 75vw;
+  padding: 10px;
+  margin-bottom: 15px;
+  color: #3b4856;
+  font-weight: 500;
+}
+
+@media (min-width: 500px) {
+  .main-head {
+    font-size: 32px;
+    margin-bottom: none;
+  }
+  .main-img {
+    width: 400px;
+  }
+  .form {
+    width: 700px;
+  }
+  .input {
+    width: 300px;
+  }
+}
